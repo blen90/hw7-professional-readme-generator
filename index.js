@@ -36,19 +36,15 @@ const questions = [
         name: "usage",
     },
     {
-        type: "input",
-        message: "What license was used for this README file",
+        type: "list",
+        message: "Please select the license that was used for this README file",
         name: "license",
+        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License'],
     },
     {
         type: "input",
         message: "Please add contributors",
         name: "contributors",
-    },
-    {
-        type: "input",
-        message: "What dependencies need to be installed to run this app?",
-        name: "installation",
     },
     {
         type: "input",
