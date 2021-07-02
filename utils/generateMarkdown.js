@@ -59,14 +59,8 @@ function generateMarkdown(data) {
 
 (${data.test})
 
-
-}
 `;
 }
-
-
-
-
 
 
 
