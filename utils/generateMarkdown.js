@@ -46,22 +46,22 @@ ${licenseOption}
 
 ## Description
 
-  ${data.description}
+${data.description}
 
 
 ## Username
 
-  ${data.userName}
+${data.userName}
 
 
 ## Email
 
-  ${data.email}
+${data.email}
 
 
 ## Dependencies
 
-  ${data.installation}
+${data.dependencies}
 
 
 ## Usage
