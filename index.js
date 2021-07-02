@@ -39,7 +39,7 @@ const questions = [
         type: "list",
         message: "Please select the license that was used for this README file",
         name: "license",
-        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License'],
+        choices: ['Apache License', 'GNU General Public License', 'MIT License'],
     },
     {
         type: "input",
@@ -67,6 +67,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data) {
+        console.log("INIT", data)
         writeToFile("READMEfile.md", generateMarkdown(data));
     })
 }
