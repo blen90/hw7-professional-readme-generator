@@ -3,47 +3,44 @@
 
 const licenseOption = [];
 function renderLicenseBadge(data) {
-console.log("RENDER LICENSE",data.license)
+  console.log("RENDER LICENSE", data.license)
 
-if (data.license === 'Apache License') {
+  if (data.license === 'Apache License') {
 
-  let apache = `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
-licenseOption.push(apache);
+    let apache = `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
+    licenseOption.push(apache);
   }
-   else if (data.license === 'GNU General Public License'){
-     let gnu = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
-  licenseOption.push(gnu);
-    }
-   else {
-let mit= `![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)`
-licenseOption.push(mit);
+  else if (data.license === 'GNU General Public License') {
+    let gnu = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+    licenseOption.push(gnu);
+  }
+  else {
+    let mit = `![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)`
+    licenseOption.push(mit);
   }
 }
 
-  
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  renderLicenseBadge(data)
-  
+  renderLicenseBadge(data);
+
   return `# ${data.title}
   
-  ## Table of Contents
-  *[Description] (#description)
-  *[Dependencies]
+## Table of Contents
+
+  * [Description](#description)
+  * [Dependencies](#dependencies)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributors](#contributors)
+  * [Test](test)
 
 ## Description
+
   ${data.description}
 
-  ##Github username
+## Username
 
   ${data.userName}
 
@@ -51,32 +48,24 @@ function generateMarkdown(data) {
 
   ${data.email}
 
-  ##Project title
-
-  ${data.title}
-
-## Description of the project
-
-  ${data.description}
-
-## Dependencies required for installation
+## Dependencies
 
   ${data.installation}
 
 
-## What is the app used for?
+## Usage
 
 ${data.usage}
 
-##License
+## License
 
 ${licenseOption} ${data.license}
 
-## Contributors of the project
+## Contributors
 
 ${data.contributors}
 
-## Command to test this App
+## Test
 
 ${data.test}
 
