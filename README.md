@@ -1,6 +1,10 @@
 # hw7-professional-readme-generator
 
-## Link to the deployed application
+## Demo of the app
+
+(Click on the image below to be redirected to Youtube demo video)
+
+[![README file Demo](./assets/images/demo-readme.jpg)](https://www.youtube.com/watch?v=T51TT_0I3-I)
 
 ## My task
 
@@ -26,8 +30,3 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Demo of the app
-
-Link to video on Google drive
-
-[![README file Demo](./assets/images/demo-readme.jpg)](https://www.youtube.com/watch?v=T51TT_0I3-I)
