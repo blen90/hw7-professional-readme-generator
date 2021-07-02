@@ -2,6 +2,10 @@
 
 ## Link to the deployed application
 
+## My task
+
+My task for this homework was to create a README file generator. I used Inquirer and fs for this. 
+
 ## Criteria
 
 ```md
@@ -21,3 +25,6 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+## Demo of the app
+

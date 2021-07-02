@@ -25,7 +25,13 @@ function renderLicenseBadge(data) {
 function generateMarkdown(data) {
   renderLicenseBadge(data);
 
+
   return `# ${data.title}
+
+## License badge
+
+${licenseOption}
+
   
 ## Table of Contents
 
@@ -34,19 +40,24 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [License](#license)
   * [Contributors](#contributors)
-  * [Test](test)
+  * [Test](#test)
+  * [Questions](#questions)
+
 
 ## Description
 
   ${data.description}
 
+
 ## Username
 
   ${data.userName}
 
+
 ## Email
 
   ${data.email}
+
 
 ## Dependencies
 
@@ -57,21 +68,30 @@ function generateMarkdown(data) {
 
 ${data.usage}
 
+
 ## License
 
-${licenseOption} ${data.license}
+This project is governed by: ${data.license}
+
 
 ## Contributors
 
 ${data.contributors}
 
+
 ## Test
 
 ${data.test}
 
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at:  blen.or90@gmail.com
+
+To see more of my work you can find me on Github: [Blenda's Github profile](https://github.com/blen90)
+
+
 `;
 }
-
-
 
 module.exports = generateMarkdown;
