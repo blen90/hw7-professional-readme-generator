@@ -1,4 +1,4 @@
-# hw9-professional-readme-generator
+# Professional README file generator
 
 ## Demo of the app
 
