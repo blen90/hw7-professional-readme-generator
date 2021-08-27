@@ -1,4 +1,4 @@
-# Professional README file generator
+# Professional README File Generator
 
 ## Demo of the app
 
