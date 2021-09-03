@@ -1,32 +1,62 @@
 # Professional README File Generator
 
+# 
+
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)]()
+
+# Description
+
+This app is a README File Generator. 
+
 ## Demo of the app
 
 (Click on the image below to be redirected to Youtube demo video)
 
 [![README file Demo](./assets/images/demo-readme.jpg)](https://www.youtube.com/watch?v=T51TT_0I3-I)
 
-## My task
 
-My task for this homework was to create a README file generator. I used Inquirer and fs for this. 
+# Table of Contents
 
-## Criteria
+* [Installation](#installation)
+    
+* [Usage](#usage)
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+* [Technology](#technology)
 
+* [License](#license)
+
+* [Contributors](#contributors)
+
+* [Questions](#questions)
+
+# Installation
+
+The user needs to download the repo and once they have done this they should run the terminal in the root of the folder and type the following command:
+
+```node index.js``` 
+
+Then install the dependencies by running the following command: 
+
+```npm install```
+
+# Usage
+
+After running the command ```node index.js``` in the terminal the user will then be prompted with some questions that they must answer and then the README file will be generated.
+
+# Technology
+
+* Inquirer
+
+# License 
+
+This project is governed by: MIT License
+
+# Contributors
+
+Blenda Orellana
+
+# Questions
+
+If you have any questions about the repo or the app please feel free to contact me
+ * Email: blen.or90@gmail.com
+ * Github: https://github.com/blen90
