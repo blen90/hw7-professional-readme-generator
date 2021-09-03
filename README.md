@@ -1,7 +1,5 @@
 # Professional README File Generator
 
-# 
-
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
 # Description
