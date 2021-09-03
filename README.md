@@ -41,7 +41,7 @@ Then install the dependencies by running the following command:
 
 # Usage
 
-After running the command ```node index.js``` in the terminal the user will then be prompted with some questions that they must answer and then the README file will be generated.
+After running the command ```node index.js``` in the terminal and installing the dependencies the user will then be prompted with some questions that they must answer and then the README file will be generated.
 
 # Technology
 
